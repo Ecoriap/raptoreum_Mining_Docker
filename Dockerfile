@@ -6,7 +6,7 @@ LABEL maintainer="Stormie [r-pool.net]"
 ENV WALLET=RWefmiUTTFhtD6qfEfm6pR3YG46yLToBWe
 
 
-WORKDIR /home/
+WORKDIR ~/
 
 RUN touch launch-aes.sh
 RUN touch launch-avx2.sh
